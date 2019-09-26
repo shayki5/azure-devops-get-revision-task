@@ -13,7 +13,7 @@ async function run() {
         let revision = split[split.length - 1];
         tl.setVariable(variableName, revision, false);
         console.log("The revision is: " + revision)
-        console.log("The variable is: " + variableName)
+        console.log("The variable is: " + variableName + " - ")
         tl.setResult(tl.TaskResult.Succeeded, "The revision is: " + revision + " The variable is: " + variableName);
 
 

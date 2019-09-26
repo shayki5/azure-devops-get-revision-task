@@ -25,7 +25,7 @@
          "helpMarkDown": "Set the revision variable name that will be enable on the next tasks. Deafult: Revision (in the next tasks you will use it with $(Revision)"
       }
    ],
-   "instanceNameFormat": "GetRevision",
+   "instanceNameFormat": "Get Revision",
    "execution":
     {"Node":{"target":"GetRevision.js"}}
    

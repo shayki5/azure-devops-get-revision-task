@@ -24,7 +24,7 @@ function run() {
             tl.setVariable(variableName, revision, false);
             console.log("The revision is: " + revision);
             console.log("The variable is: " + variableName);
-            tl.setResult(tl.TaskResult.Succeeded, "The revision is: " + revision + "The variable is: " + variableName);
+            tl.setResult(tl.TaskResult.Succeeded, "The revision is: " + revision + " The variable is: " + variableName);
         }
         catch (err) {
             tl.setResult(tl.TaskResult.Failed, err.message);
