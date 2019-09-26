@@ -22,11 +22,9 @@ steps:
   inputs:
     command: 'install'
     workingDir: '$(build.sourcesdirectory)/GetRevision'
-
-- task: Npm@1
+- task: CmdLine@2
   inputs:
-    command: 'build'
-    workingDir: '$(build.sourcesdirectory)/GetRevision'
+    script: 'tsc'
 
 - task: PackageVSTSExtension@1
   displayName: 'Package Extension - Private'
