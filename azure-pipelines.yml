@@ -14,7 +14,19 @@ steps:
 - task: Npm@1  
   displayName: 'npm install'
   inputs:
+    command: 'install'
     workingDir: '$(build.sourcesdirectory)'
+
+- task: Npm@1  
+  displayName: 'npm install'
+  inputs:
+    command: 'install'
+    workingDir: '$(build.sourcesdirectory)/GetRevision'
+
+- task: Npm@1
+  inputs:
+    command: 'build'
+    workingDir: '$(build.sourcesdirectory)/GetRevision'
 
 - task: PackageVSTSExtension@1
   displayName: 'Package Extension - Private'
