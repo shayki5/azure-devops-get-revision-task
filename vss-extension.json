@@ -1,0 +1,54 @@
+{
+  "manifestVersion": 1,
+  "id": "GetRevision",
+  "version": "1.0.0",
+  "name": "Get Revision Number",
+  "description": "Get the build revision number ($(Rev:.r) and set it as a variable - $(Revision) for the next steps",
+  "publisher": "ShaykiAbramczyk",
+  "icons": {
+    "default": "static/images/icon.png"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "demands": [
+    "api-version/3.0"
+  ],
+  "tags": [
+    "Azure Pipelines"
+  ],
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "content": {
+    "license": {
+      "path": "license.md"
+    },
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/shayki5/azure-devops-get-revision-task"
+  },
+  "files": [
+    {
+      "path": "GetRevision"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "GetRevision",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "GetRevision"
+      }
+    }
+  ]
+}
