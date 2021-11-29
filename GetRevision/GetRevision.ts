@@ -1,4 +1,4 @@
-import tl = require('vsts-task-lib/task');
+import tl = require('azure-pipelines-task-lib');
 
 let buildNumber: string = tl.getVariable("build_buildnumber");
 let variableName = tl.getInput("VariableName", false);
