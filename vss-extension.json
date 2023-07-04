@@ -22,14 +22,6 @@
   "categories": [
     "Azure Pipelines"
   ],
-  "content": {
-    "license": {
-      "path": "LICENSE"
-    },
-    "details": {
-      "path": "README.md"
-    }
-  },
   "repository": {
     "type": "git",
     "uri": "https://github.com/shayki5/azure-devops-get-revision-task"
