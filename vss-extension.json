@@ -34,6 +34,28 @@
     "type": "git",
     "uri": "https://github.com/shayki5/azure-devops-get-revision-task"
   },
+  "content": {
+    "details": {
+      "path": "README.MD"
+    },
+    "license": {
+      "path": "LICENSE.md"
+    },
+    "privacy": {
+      "path": "PRIVACY.md"
+    }
+  },
+  "links": {
+    "support": {
+      "uri": "https://github.com/shayki5/azure-devops-get-revision-task/issues"
+    },
+    "license": {
+      "uri": "https://github.com/shayki5/azure-devops-get-revision-task/blob/master/LICENSE.md"
+    },
+    "privacypolicy": {
+      "uri": "https://github.com/shayki5/azure-devops-get-revision-task/blob/master/PRIVACY.md"
+    }
+  },
   "files": [
     {
       "path": "GetRevision"
