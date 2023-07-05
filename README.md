@@ -1,6 +1,6 @@
-Build | Release | Extension
-:-----| :-------| :--------
-[![Build Status](https://dev.azure.com/shaykia/AzureDevOpsExtensions/_apis/build/status/shayki5.Azure-DevOps-Get-Revision-Task?branchName=master)](https://dev.azure.com/shaykia/AzureDevOpsExtensions/_build/latest?definitionId=39&branchName=master) | [![Release Status](https://vsrm.dev.azure.com/shaykia/_apis/public/Release/badge/3372e1d4-189a-4d9e-aa4d-0cb86eff3c2e/2/5)](https://vsrm.dev.azure.com/shaykia/_apis/public/Release/badge/3372e1d4-189a-4d9e-aa4d-0cb86eff3c2e/2/5) | [![Extnesion](https://vsmarketplacebadge.apphb.com/version/ShaykiAbramczyk.GetRevision.svg)](https://vsmarketplacebadge.apphb.com/version/ShaykiAbramczyk.GetRevision.svg)
+Build | Release |
+:-----| :-------|
+[![Build Status](https://dev.azure.com/shaykia/AzureDevOpsExtensions/_apis/build/status/shayki5.Azure-DevOps-Get-Revision-Task?branchName=master)](https://dev.azure.com/shaykia/AzureDevOpsExtensions/_build/latest?definitionId=39&branchName=master) | [![Release Status](https://vsrm.dev.azure.com/shaykia/_apis/public/Release/badge/3372e1d4-189a-4d9e-aa4d-0cb86eff3c2e/2/5)](https://vsrm.dev.azure.com/shaykia/_apis/public/Release/badge/3372e1d4-189a-4d9e-aa4d-0cb86eff3c2e/2/5) 
 
 ## Get Revision Number 
 
