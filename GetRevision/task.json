@@ -24,7 +24,7 @@
   ],
   "instanceNameFormat": "Get Revision",
   "execution": {
-    "Node10": {
+    "Node16": {
       "target": "GetRevision.js"
     }
   }
