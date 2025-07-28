@@ -24,8 +24,15 @@
   ],
   "instanceNameFormat": "Get Revision",
   "execution": {
+    "Node10": {
+      "target": "GetRevision.js"
+    },
     "Node16": {
       "target": "GetRevision.js"
+    },
+    "Node20_1": {
+      "target": "GetRevision.js"
     }
-  }
+  },
+  "minimumAgentVersion": "3.232.1"
 }
